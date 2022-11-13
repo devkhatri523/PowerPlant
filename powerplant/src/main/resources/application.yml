@@ -1,0 +1,27 @@
+spring:
+  devtools:
+    restart:
+      enabled: true
+  datasource:
+    driverClassName : org.h2.Driver
+    url: jdbc:h2:mem://localhost//~/powerplant
+    username: admin
+    password: admin
+  h2:
+      console:
+        enabled: true
+  jpa:
+     properties:
+       hibernate:
+         dialect: org.hibernate.dialect.H2Dialect
+         ddl-auto: update
+
+
+
+
+
+
+
+
+
+
